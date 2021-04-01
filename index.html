@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-
-.emre {
-display: block;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 12rem;
-
-
-}
-
-
-
-
-
-
-
+      .container {
+        margin-top: 20%;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #btn {
+        cursor: pointer;
+        position: relative;
+        padding: 0.5rem 1.5rem;
+        border-radius: 3.75rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      #sayi, #res {
+        border: 1px solid grey;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+      }
     </style>
-</head>
-<body>
-    <div class="emre"> 
-
+  </head>
+  <body>
+    <div class="container">
+      <div class="emre">
         <h1>Fibonacci Number</h1>
-        <input id="sayi" type="number">
+        <br>
+        
+        <input id="sayi" type="number" placeholder="Enter a number" />
+ 
         <button id="btn">Check</button>
         <p id="res"></p>
-
-
+      </div>
     </div>
-    
-    
-
-
-
-
-
-
-
 
     <script src="./app.js"></script>
-    
-</body>
+  </body>
 </html>
